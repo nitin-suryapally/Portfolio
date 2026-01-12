@@ -51,18 +51,17 @@ const ShowcaseSection = () => {
           {/* left  */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
-              <a href="https://meskolabs.com/">
+              <a href="https://www.chillapply.com/">
                 <img
-                  src="/images/meskolabs.jpg"
+                  src="/images/chillapply.png"
                   alt="Library Management Platform"
                 />
               </a>
             </div>
             <div className="text-content">
-              <h2>Meskolabs - Smart, End-to-End Product Innovation</h2>
+              <h2>Chillapply - Job Application Automation</h2>
               <p className="text-white-50 md:text-xl">
-                An App built with Next.js, Expo, & Tailwind for a fast,
-                user-friendly experience.
+                ChillApply is a Chrome extension that automates job applications on Workday.
               </p>
             </div>
           </div>
