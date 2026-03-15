@@ -27,7 +27,7 @@ export default function Contact() {
 
     const formData = new FormData(event.currentTarget);
     // Add Web3Forms Access Key - User should replace this with their own key
-    formData.append("access_key", "0c94aecf-204e-40d8-97e3-39680e24fd1f"); 
+    formData.append("access_key", "2fa18236-1a7c-43b1-ae89-7dcd175395d0"); 
     formData.append("from_name", "Portfolio Contact Form");
     formData.append("subject", `New Message from ${formData.get("name")}`);
 
